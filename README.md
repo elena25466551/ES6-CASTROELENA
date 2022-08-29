@@ -51,5 +51,5 @@ function devolverFecha(){
 }
 
 // Mostrar el resultado por consola.
-devolverFecha('10','09','2020');
+devolverFecha('10','09','2022');
 ```
