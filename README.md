@@ -7,15 +7,17 @@
 
 
 ```JS
+
 function saludar(nombre){
     let nombre = nombre;
     return 'Hola ' + nombre;
+    return `Hola ${nombre}`
 }
 
 // Mostrar el resultado por consola
-saludar('Alejandro');
+//saludar('Alejandro');
 ```
-
+console.log(saludar('Alejandro'))
 
 ```JS
 function multiplicar(a, b){
